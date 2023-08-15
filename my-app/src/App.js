@@ -8,11 +8,14 @@ import { Home } from './components/Home';
 
 function App() {
   return (
+    <>
+    <Navbar></Navbar>
       <Routes>
         <Route exact path='/' element={<Home />}></Route> 
         <Route exact path='/about' element={<About />}></Route>
         <Route exact path='/information' element={<Information />}></Route>
       </Routes>
+    </>
   );
 }
 
