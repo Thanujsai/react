@@ -41,7 +41,9 @@
 }
 
 .page{
-  margin-left: 900px;
+  style{
+  position: 'absolute'
+  }
 }
 
 @keyframes App-logo-spin {
